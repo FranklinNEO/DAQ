@@ -78,15 +78,16 @@ public class ScanTestActivity extends Activity {
         if (i.getAction().contentEquals(ourIntentAction)) {
             String data = i.getStringExtra(DATA_STRING_TAG);
             barcode = data;
-            if (barcode.length() != 20) {
-                sp.play(State.refreshed);
-                Toast.makeText(ScanTestActivity.this,
-                        getString(R.string.not_bcm_code), Toast.LENGTH_SHORT)
-                        .show();
-            } else {
-                resultTv.setText(barcode);
-            }
-
+//            if (barcode.length() != 20) {
+//                sp.play(State.refreshed);
+//                Toast.makeText(ScanTestActivity.this,
+//                        getString(R.string.not_bcm_code), Toast.LENGTH_SHORT)
+//                        .show();
+//            } else {
+//                resultTv.setText(barcode);
+//            }
+            numTv.setText(getString(R.string.size)+":"+barcode.length());
+            resultTv.setText(barcode);
         }
     }
 }

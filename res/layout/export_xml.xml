@@ -47,7 +47,7 @@
             android:layout_weight="1"
             android:background="@drawable/search_bar_edit_bg"
             android:ems="10"
-            android:hint="请输入要搜索的单号"
+            android:hint="@string/please_enter_orderid"
             android:singleLine="true"
             android:textSize="13sp" >
         </EditText>
