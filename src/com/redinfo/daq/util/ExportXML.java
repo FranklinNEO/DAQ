@@ -158,7 +158,7 @@ public class ExportXML extends Activity implements OnItemClickListener,
 		searchBtn.setOnClickListener(this);
 		searchEdit = (EditText) findViewById(R.id.search_bar_et);
 		// searchEdit.setInputType(InputType.TYPE_DATETIME_VARIATION_NORMAL);
-		searchEdit.setInputType(InputType.TYPE_CLASS_NUMBER);
+		//searchEdit.setInputType(InputType.TYPE_CLASS_NUMBER);
 		List = (ListView) findViewById(R.id.orderDate);
 		List.setOnItemClickListener(this);
 		List.setOnItemLongClickListener(this);
