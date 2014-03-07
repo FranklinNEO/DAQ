@@ -71,6 +71,7 @@ public class ScanTestActivity extends Activity {
     public void onNewIntent(Intent i) {
         // i.addCategory("com.redinfo.daq.app.code");
         // i.addCategory("android.intent.category.DEFAULT");
+        setIntent(i);
         handleDecodeData(i);
     }
 
