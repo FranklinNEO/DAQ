@@ -73,8 +73,13 @@
             android:id="@+id/login_panel"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:visibility="invisible" >
+            <LinearLayout
 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" >
             <CheckBox
                 android:id="@+id/remember_user_checkbox"
                 android:layout_width="wrap_content"
@@ -83,13 +88,22 @@
                 android:layout_marginLeft="3dip"
                 android:text="@string/remember_user_info"
                 android:textColor="@color/white"
-                android:textSize="@dimen/Small_TextSize" />
+                android:textSize="@dimen/Small_TextSize" android:checked="false"/>
 
             <View
                 android:layout_width="0dip"
                 android:layout_height="40.0dip"
                 android:layout_weight="1.0" />
+</LinearLayout>
+            <LinearLayout
 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" >
+                <View
+                        android:layout_width="0dip"
+                        android:layout_height="40.0dip"
+                        android:layout_weight="1.0" />
             <Button
                 android:id="@+id/LoginButton"
                 style="@style/MMLineActionButton"
@@ -98,6 +112,7 @@
                 android:background="@drawable/login_button"
                 android:text="@string/login"
                 android:textColor="@color/mm_hyper_text" />
+              </LinearLayout>
         </LinearLayout>
 
         <View style="@style/MMLabelSplit" />

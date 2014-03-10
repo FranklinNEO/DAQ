@@ -9,8 +9,24 @@
   </component>
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <locale>ja</locale>
+      </config>
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_login.xml">
+        <config>
+          <device>Nexus S</device>
+          <theme>@style/Theme.D1</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/system_activity.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/Theme.D1</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f135275c-b7ad-455b-9e71-f9a5acbcacda" name="Default" comment="" />
@@ -93,31 +109,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ScanTestActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/ScanTestActivity.java">
+      <file leaf-file-name="PermissionActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/PermissionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="53" selection-start="2683" selection-end="2683" vertical-scroll-proportion="0.0" vertical-offset="980" max-vertical-offset="1660">
+            <state line="64" column="98" selection-start="2719" selection-end="2754" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1440">
               <folding>
-                <element signature="e#2309#2333#0" expanded="true" />
-                <element signature="e#3367#3391#0" expanded="true" />
+                <element signature="e#2720#2754#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodeDBHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/data/CodeDBHelper.java">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="335" column="68" selection-start="10494" selection-end="10494" vertical-scroll-proportion="0.0" vertical-offset="6609" max-vertical-offset="7160">
+            <state line="322" column="0" selection-start="8948" selection-end="8948" vertical-scroll-proportion="0.0" vertical-offset="3240" max-vertical-offset="8080">
+              <folding>
+                <element signature="e#2584#2621#0" expanded="true" />
+                <element signature="e#3784#3822#0" expanded="true" />
+                <element signature="e#5698#5735#0" expanded="true" />
+                <element signature="e#5863#5900#0" expanded="true" />
+                <element signature="e#7714#7754#0" expanded="true" />
+                <element signature="e#8234#8272#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_login.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_login.xml">
+          <provider editor-type-id="text-editor">
+            <state line="32" column="42" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-2.1451614" vertical-offset="507" max-vertical-offset="2960">
+              <folding>
+                <element signature="e#556#578#0" expanded="true" />
+                <element signature="e#804#828#0" expanded="true" />
+                <element signature="e#3399#3427#0" expanded="true" />
+                <element signature="e#3510#3533#0" expanded="true" />
+                <element signature="e#4414#4429#0" expanded="true" />
+                <element signature="e#5246#5267#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="50" selection-start="819" selection-end="819" vertical-scroll-proportion="-2.6290324" vertical-offset="137" max-vertical-offset="4240">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CorpOrderConfirmEditCancel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/ui/CorpOrderConfirmEditCancel.java">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-ja/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0" vertical-offset="860" max-vertical-offset="2120">
+            <state line="15" column="50" selection-start="827" selection-end="827" vertical-scroll-proportion="-2.6290324" vertical-offset="137" max-vertical-offset="4240">
               <folding />
             </state>
           </provider>
@@ -126,60 +176,13 @@
       <file leaf-file-name="UserEditCancel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/ui/UserEditCancel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="42" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="2240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExportXML.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/util/ExportXML.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1572" column="58" selection-start="52398" selection-end="52398" vertical-scroll-proportion="0.0" vertical-offset="29700" max-vertical-offset="32340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubmmitCode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/SubmmitCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="285" column="39" selection-start="9764" selection-end="9764" vertical-scroll-proportion="0.0" vertical-offset="2969" max-vertical-offset="18320">
+            <state line="40" column="42" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1960">
               <folding>
-                <element signature="e#7525#9601#0" expanded="true" />
-                <element signature="e#9596#9597#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1012#1058#0" expanded="false" />
+                <element signature="e#1211#1370#0" expanded="false" />
+                <element signature="e#1365#1366#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoderListActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/CoderListActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="206" column="32" selection-start="6340" selection-end="6340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9060">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="165" selection-end="165" vertical-scroll-proportion="0.114285715" vertical-offset="0" max-vertical-offset="3260">
-              <folding>
-                <element signature="e#2028#2046#0" expanded="true" />
-                <element signature="e#2201#2219#0" expanded="true" />
-                <element signature="e#5261#5287#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CorpOrderEditCancel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/ui/CorpOrderEditCancel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="46" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="2100">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -187,7 +190,16 @@
       <file leaf-file-name="StatisticsActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/StatisticsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="47" selection-start="5687" selection-end="5687" vertical-scroll-proportion="0.0" vertical-offset="2840" max-vertical-offset="9880">
+            <state line="142" column="47" selection-start="5687" selection-end="5687" vertical-scroll-proportion="0.0" vertical-offset="8142" max-vertical-offset="9460">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="27" selection-start="164" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3260">
               <folding />
             </state>
           </provider>
@@ -209,7 +221,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/data/CodeDBHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/redinfo/daq/app/PermissionActivity.java" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/app/ActionActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/permission_dialog.xml" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/app/Loading.java" />
@@ -219,19 +230,23 @@
         <option value="$PROJECT_DIR$/res/layout/submmit.xml" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/app/ConfirmActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/test_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/statistics.xml" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/app/StatisticsActivity.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/export_xml.xml" />
-        <option value="$PROJECT_DIR$/res/values-ja/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/ui/CorpOrderConfirmEditCancel.java" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/ui/CorpOrderEditCancel.java" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/ui/PwdEditCancel.java" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/ui/UserEditCancel.java" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/util/ExportXML.java" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/app/ScanTestActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/redinfo/daq/app/SubmmitCode.java" />
+        <option value="$PROJECT_DIR$/res/layout/product_listitem.xml" />
+        <option value="$PROJECT_DIR$/res/layout/statistics.xml" />
+        <option value="$PROJECT_DIR$/src/com/redinfo/daq/app/PermissionActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/redinfo/daq/app/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-ja/strings.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_login.xml" />
       </list>
     </option>
   </component>
@@ -504,8 +519,81 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-ja" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -534,7 +622,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,9 +644,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="01957bbcdd4ea6be" />
     <property name="ExportedModule" value="DAQ" />
-    <property name="ExportedApkPath" value="C:\Users\FranklinNEO\Clone\DAQ\Red4S出入库管理软件_2014030603.apk" />
+    <property name="ExportedApkPath" value="C:\Users\FranklinNEO\Clone\DAQ\Red4S出入库管理软件_2014030803.apk" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="GingerBread" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="JellyBean" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -753,11 +840,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -766,18 +854,17 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23292868" sideWeight="0.5012225" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8009868" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.8009868" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25265554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24734446" sideWeight="0.4987775" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25037935" sideWeight="0.4987775" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -830,51 +917,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/SubmmitCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="358" column="28" selection-start="10729" selection-end="10729" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <element signature="e#7525#9601#0" expanded="true" />
-            <element signature="e#9596#9597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/ActionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="40" selection-start="1210" selection-end="1210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/permission_dialog.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="122" column="63" selection-start="4612" selection-end="4612" vertical-scroll-proportion="0.0" vertical-offset="2400" max-vertical-offset="3940" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/favor_list.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/code_list_item.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/warehoust_input.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/warehoust_input.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/widget/SideBar.java">
@@ -883,43 +939,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/export_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/export_list_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/export_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="17" selection-start="0" selection-end="2589" vertical-scroll-proportion="-1.1499085" vertical-offset="969" max-vertical-offset="1540" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/alert_dialog.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/alert_dialog.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="6272" vertical-scroll-proportion="-5.1036468" vertical-offset="2659" max-vertical-offset="3440" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/system_activity.xml">
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3160" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/about.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="33" column="27" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="2460" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/util/WriteXML.java">
@@ -953,11 +1001,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/function.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/Function.java">
@@ -980,19 +1028,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/test_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="17" selection-start="2472" selection-end="2472" vertical-scroll-proportion="0.5621118" vertical-offset="1139" max-vertical-offset="1800" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/submmit.xml">
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/submmit.xml">
       <provider editor-type-id="text-editor">
         <state line="29" column="36" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="5420" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/ui/CustomDialog.java">
@@ -1003,13 +1051,6 @@
     <entry file="jar://C:/Android/android-sdk-windows/platforms/android-19/android.jar!/android/database/sqlite/SQLiteDatabase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="127" column="35" selection-start="6912" selection-end="6912" vertical-scroll-proportion="0.3322034" vertical-offset="2422" max-vertical-offset="3780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/PermissionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="3262" selection-end="3262" vertical-scroll-proportion="0.0" vertical-offset="902" max-vertical-offset="1440">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/ConfirmActivity.java">
@@ -1027,43 +1068,6 @@
         <state line="36" column="16" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.3322034" vertical-offset="602" max-vertical-offset="2680" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/product_listitem.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="392" column="19" selection-start="12454" selection-end="14115" vertical-scroll-proportion="-14.7" vertical-offset="7399" max-vertical-offset="8000" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/statistics.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="56" selection-start="4756" selection-end="4756" vertical-scroll-proportion="-7.366667" vertical-offset="2279" max-vertical-offset="3040" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/StatisticsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="47" selection-start="5687" selection-end="5687" vertical-scroll-proportion="0.0" vertical-offset="2260" max-vertical-offset="9460">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="37" selection-start="10524" selection-end="10524" vertical-scroll-proportion="0.0" vertical-offset="3669" max-vertical-offset="4220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values-ja/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="48" selection-start="10443" selection-end="10443" vertical-scroll-proportion="1.0362977" vertical-offset="3369" max-vertical-offset="4220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="133" column="5" selection-start="4490" selection-end="4490" vertical-scroll-proportion="-0.06715064" vertical-offset="2697" max-vertical-offset="5180">
@@ -1072,13 +1076,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/order_input.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="25" selection-start="301" selection-end="301" vertical-scroll-proportion="0.30710173" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/ActionActivity.java">
@@ -1103,60 +1107,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/export_xml.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="37" selection-start="0" selection-end="2830" vertical-scroll-proportion="0.38387716" vertical-offset="720" max-vertical-offset="1660">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/action_activity.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/action_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="45" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.42226487" vertical-offset="720" max-vertical-offset="2760">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/ui/CorpOrderEditCancel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="46" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="1820">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/ui/UserEditCancel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="42" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/util/ExportXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1572" column="58" selection-start="52398" selection-end="52398" vertical-scroll-proportion="0.0" vertical-offset="29700" max-vertical-offset="32340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Android/android-sdk-windows/platforms/android-19/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="8900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/ScanTestActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="53" selection-start="2683" selection-end="2683" vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1660">
-          <folding>
-            <element signature="e#2309#2333#0" expanded="true" />
-            <element signature="e#3367#3391#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,30 +1142,176 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/CoderListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="32" selection-start="6340" selection-end="6340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9060">
+        <state line="206" column="32" selection-start="6340" selection-end="6340" vertical-scroll-proportion="6.245353" vertical-offset="0" max-vertical-offset="9060">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/SubmmitCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="39" selection-start="9764" selection-end="9764" vertical-scroll-proportion="0.0" vertical-offset="2969" max-vertical-offset="18320">
+        <state line="285" column="39" selection-start="9764" selection-end="9764" vertical-scroll-proportion="3.3661711" vertical-offset="2969" max-vertical-offset="18320">
           <folding>
-            <element signature="e#7525#9601#0" expanded="true" />
-            <element signature="e#9596#9597#0" expanded="true" />
+            <element signature="e#7525#9601#0" expanded="false" />
+            <element signature="e#9596#9597#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/util/ExportXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1573" column="32" selection-start="52425" selection-end="52425" vertical-scroll-proportion="0.0" vertical-offset="29700" max-vertical-offset="32340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/ScanTestActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="0" selection-start="2802" selection-end="2802" vertical-scroll-proportion="0.0" vertical-offset="1109" max-vertical-offset="1660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Android/android-sdk-windows/platforms/android-19/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="335" column="22" selection-start="15016" selection-end="15016" vertical-scroll-proportion="0.33203125" vertical-offset="6510" max-vertical-offset="8900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/ui/UserEditCancel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="42" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1960">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1012#1058#0" expanded="false" />
+            <element signature="e#1211#1370#0" expanded="false" />
+            <element signature="e#1365#1366#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/StatisticsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="47" selection-start="5687" selection-end="5687" vertical-scroll-proportion="0.0" vertical-offset="2260" max-vertical-offset="9460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/assist_settings_switcher_off_normal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/system_activity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="50" selection-start="2036" selection-end="2045" vertical-scroll-proportion="-7.3333335" vertical-offset="840" max-vertical-offset="3160">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/toggle_me.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/statistics.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="50" selection-start="4682" selection-end="4682" vertical-scroll-proportion="0.0" vertical-offset="2460" max-vertical-offset="3040">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/product_listitem.xml">
+      <provider editor-type-id="text-editor">
+        <state line="83" column="52" selection-start="3024" selection-end="3024" vertical-scroll-proportion="-3.548387" vertical-offset="1440" max-vertical-offset="8000">
+          <folding>
+            <element signature="e#872#894#0" expanded="true" />
+            <element signature="e#1291#1313#0" expanded="true" />
+            <element signature="e#2047#2069#0" expanded="true" />
+            <element signature="e#3199#3213#0" expanded="true" />
+            <element signature="e#4398#4420#0" expanded="true" />
+            <element signature="e#5600#5623#0" expanded="true" />
+            <element signature="e#6785#6806#0" expanded="true" />
+            <element signature="e#7984#8005#0" expanded="true" />
+            <element signature="e#9183#9204#0" expanded="true" />
+            <element signature="e#10376#10397#0" expanded="true" />
+            <element signature="e#10787#10808#0" expanded="true" />
+            <element signature="e#11574#11595#0" expanded="true" />
+            <element signature="e#11986#12007#0" expanded="true" />
+            <element signature="e#13217#13241#0" expanded="true" />
+            <element signature="e#13637#13661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/PermissionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="98" selection-start="2719" selection-end="2754" vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1440">
+          <folding>
+            <element signature="e#2720#2754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="50" selection-start="819" selection-end="819" vertical-scroll-proportion="-2.6290324" vertical-offset="137" max-vertical-offset="4240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-ja/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="50" selection-start="827" selection-end="827" vertical-scroll-proportion="-2.6290324" vertical-offset="137" max-vertical-offset="4240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/redinfo/daq/app/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="322" column="0" selection-start="8948" selection-end="8948" vertical-scroll-proportion="0.0" vertical-offset="3240" max-vertical-offset="8080">
+          <folding>
+            <element signature="e#2584#2621#0" expanded="true" />
+            <element signature="e#3784#3822#0" expanded="true" />
+            <element signature="e#5698#5735#0" expanded="true" />
+            <element signature="e#5863#5900#0" expanded="true" />
+            <element signature="e#7714#7754#0" expanded="true" />
+            <element signature="e#8234#8272#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="165" selection-end="165" vertical-scroll-proportion="0.114285715" vertical-offset="0" max-vertical-offset="3260">
+        <state line="3" column="27" selection-start="164" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_login.xml">
+      <provider editor-type-id="text-editor">
+        <state line="32" column="42" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-2.1451614" vertical-offset="507" max-vertical-offset="2960">
           <folding>
-            <element signature="e#2028#2046#0" expanded="true" />
-            <element signature="e#2201#2219#0" expanded="true" />
-            <element signature="e#5261#5287#0" expanded="true" />
+            <element signature="e#556#578#0" expanded="true" />
+            <element signature="e#804#828#0" expanded="true" />
+            <element signature="e#3399#3427#0" expanded="true" />
+            <element signature="e#3510#3533#0" expanded="true" />
+            <element signature="e#4414#4429#0" expanded="true" />
+            <element signature="e#5246#5267#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

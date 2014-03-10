@@ -13,7 +13,7 @@
     <string name="app_name">RED4S出入库数据采集系统</string>
     <string name="loading_name">RED4S出入库</string>
     <string name="manager_system">数据采集系统</string>
-    <string name="remember_user_info">记住用户信息</string>
+    <string name="remember_user_info">&#160;&#160;记住用户信息</string>
     <string name="login">登 录</string>
     <string name="loading_now">正在载入……</string>
     <string name="title_bar_name">出入库查询</string>
@@ -202,5 +202,6 @@
     <string name="enter_the_permission_code">请输入序列号</string>
     <string name="barcode">条码:</string>
     <string name="size">条码长度</string>
-    <string name="please_enter_orderid">请输入单号</string>
+	<string name="please_enter_orderid">请输入单号</string>
+	<string name="unknow_barcode">未知条码</string>
 </resources>

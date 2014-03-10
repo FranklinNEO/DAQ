@@ -161,14 +161,14 @@ public class LoginActivity extends Activity implements OnClickListener {
 			// Log.e("mi", mi);
 			if (content.equals("pass")) {
 				Log.e("permission", "pass");
-				Toast.makeText(LoginActivity.this, "已授权", Toast.LENGTH_SHORT)
-						.show();
+//				Toast.makeText(LoginActivity.this,  getString(R.string.has_permission), Toast.LENGTH_SHORT)
+//						.show();
 				LoginCheck();
 				InitalCompant();
 			} else {
 				Log.e("permission", "fail");
-				Toast.makeText(LoginActivity.this, "未注册", Toast.LENGTH_SHORT)
-						.show();
+//				Toast.makeText(LoginActivity.this, "未注册", Toast.LENGTH_SHORT)
+//						.show();
 				Intent intent = new Intent();
 				intent.setClass(LoginActivity.this, PermissionActivity.class);
 				startActivityForResult(intent, 0x969);
@@ -177,8 +177,8 @@ public class LoginActivity extends Activity implements OnClickListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			Log.e("permission", "fail");
-			Toast.makeText(LoginActivity.this, "未注册", Toast.LENGTH_SHORT)
-					.show();
+//			Toast.makeText(LoginActivity.this, "未注册", Toast.LENGTH_SHORT)
+//					.show();
 			Intent intent = new Intent();
 			intent.setClass(LoginActivity.this, PermissionActivity.class);
 			startActivityForResult(intent, 0x969);

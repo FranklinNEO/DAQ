@@ -16,7 +16,7 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/blue_blank"
@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/blue_blank"
                 android:gravity="center"
-                android:text="产品名称"
+                android:text="@string/product_name"
                 android:textSize="15dip" />
         </LinearLayout>
     </LinearLayout>
@@ -48,7 +48,7 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/white_blank"
@@ -80,7 +80,7 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/blue_blank"
@@ -113,7 +113,7 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/white_blank"
@@ -146,7 +146,7 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/blue_blank"
@@ -179,12 +179,12 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/white_blank"
                 android:gravity="center"
-                android:text="1级码数量"
+                android:text="@string/code_level1"
                 android:textColor="@color/grey"
                 android:textSize="15dip" />
 
@@ -212,12 +212,12 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/blue_blank"
                 android:gravity="center"
-                android:text="2级码数量"
+                android:text="@string/code_level2"
                 android:textColor="@color/grey"
                 android:textSize="15dip" />
 
@@ -245,12 +245,12 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/white_blank"
                 android:gravity="center"
-                android:text="3级码数量"
+                android:text="@string/code_level3"
                 android:textColor="@color/grey"
                 android:textSize="15dip" />
 
@@ -278,7 +278,7 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/blue_blank"
@@ -293,7 +293,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/blue_blank"
                 android:gravity="center"
-                android:text="合		计"
+                android:text="@string/product_sum"
                 android:textSize="15dip" />
         </LinearLayout>
     </LinearLayout>
@@ -311,7 +311,7 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/white_blank"
@@ -326,7 +326,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/white_blank"
                 android:gravity="center"
-                android:text="合		计"
+                android:text="@string/product_sum"
                 android:textSize="15dip" />
         </LinearLayout>
     </LinearLayout>
@@ -358,12 +358,12 @@
             android:orientation="horizontal" >
 
             <TextView
-                android:layout_width="70dip"
+                android:layout_width="85dip"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:background="@drawable/blue_blank"
                 android:gravity="center"
-                android:text="未知条码"
+                android:text="@string/unknow_barcode"
                 android:textColor="@color/grey"
                 android:textSize="15dip" />
 
@@ -373,7 +373,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/blue_blank"
                 android:gravity="center"
-                android:text="未知条码"
+                android:text="@string/unknow_barcode"
                 android:textSize="15dip" />
         </LinearLayout>
 
